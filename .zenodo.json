@@ -15,27 +15,7 @@
     "dynamic programming",
     "consumption-savings"
   ],
-  "license": {
-    "id": "MIT"
-  },
+  "license": "MIT",
   "upload_type": "software",
-  "access_right": "open",
-  "grants": [
-    {
-      "id": "10.13039/100000879::G-2025-79177"
-    }
-  ],
-  "related_identifiers": [
-    {
-      "relation": "isDocumentedBy",
-      "identifier": "https://econ-ark.github.io/ezegm/",
-      "resource_type": "publication-article",
-      "scheme": "url"
-    }
-  ],
-  "communities": [
-    {
-      "identifier": "econ-ark"
-    }
-  ]
+  "access_right": "open"
 }
