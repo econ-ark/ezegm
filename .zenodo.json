@@ -1,0 +1,41 @@
+{
+  "title": "The Endogenous Grid Method for Epstein-Zin Preferences",
+  "description": "A power transformation extends EGM to recursive preferences. Code and paper for solving consumption-savings problems with Epstein-Zin utility.",
+  "creators": [
+    {
+      "name": "Lujan, Alan",
+      "affiliation": "Johns Hopkins University",
+      "orcid": "0000-0002-5289-7054"
+    }
+  ],
+  "keywords": [
+    "endogenous grid method",
+    "Epstein-Zin preferences",
+    "recursive utility",
+    "dynamic programming",
+    "consumption-savings"
+  ],
+  "license": {
+    "id": "MIT"
+  },
+  "upload_type": "software",
+  "access_right": "open",
+  "grants": [
+    {
+      "id": "10.13039/100000879::G-2025-79177"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://econ-ark.github.io/ezegm/",
+      "resource_type": "publication-article",
+      "scheme": "url"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "econ-ark"
+    }
+  ]
+}

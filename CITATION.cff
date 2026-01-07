@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: Please cite the following works when using this project.
+title: The Endogenous Grid Method for Epstein-Zin Preferences
+authors:
+  - family-names: Lujan
+    given-names: Alan
+    affiliation: Johns Hopkins University
+    city: Washington
+    region: DC
+    post-code: '20036'
+    country: USA
+    orcid: 0000-0002-5289-7054
+    email: alujan@jhu.edu
+contact:
+  - family-names: Lujan
+    given-names: Alan
+    affiliation: Johns Hopkins University
+    city: Washington
+    region: DC
+    post-code: '20036'
+    country: USA
+    orcid: 0000-0002-5289-7054
+    email: alujan@jhu.edu
+keywords:
+  - Endogenous grid method
+  - Epstein-Zin preferences
+  - Recursive utility
+  - Dynamic programming
+  - Consumption-savings
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository: https://github.com/econ-ark/ezegm

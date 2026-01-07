@@ -1,0 +1,117 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 5ab7d1c4-97c7-49d1-b695-f175c74f877a
+  title: The Endogenous Grid Method for Epstein-Zin Preferences
+  short_title: EGM for Epstein-Zin
+  subtitle: Solving consumption-savings problems with recursive utility
+  description: A power transformation extends EGM to recursive preferences
+  subject: Computational Economics
+  venue: REMARK
+  keywords:
+    - Endogenous grid method
+    - Epstein-Zin preferences
+    - Recursive utility
+    - Dynamic programming
+    - Consumption-savings
+  tags:
+    - C61
+    - C63
+    - D15
+  abbreviations:
+    EGM: Endogenous Grid Method
+    EIS: Elasticity of Intertemporal Substitution
+    CRRA: Constant Relative Risk Aversion
+    EZ: Epstein-Zin
+  authors:
+    - id: alujan
+      name: Alan Lujan
+      email: alujan@jhu.edu
+      orcid: 0000-0002-5289-7054
+      corresponding: true
+      affiliations:
+        - jhu
+        - econ-ark
+      roles:
+        - Conceptualization
+        - Methodology
+        - Software
+        - Writing - original draft
+  affiliations:
+    - id: jhu
+      name: Johns Hopkins University
+      department: Krieger School of Arts and Sciences
+      city: Washington
+      state: DC
+      postal_code: "20036"
+      country: USA
+      ror: https://ror.org/00za53h95
+    - id: econ-ark
+      name: Econ-ARK
+      url: https://econ-ark.org
+    - id: sloan
+      name: Alfred P. Sloan Foundation
+      url: https://sloan.org
+      ror: https://ror.org/052csg198
+  funding:
+    - statement: This work was supported by the Alfred P. Sloan Foundation [[G-2025-79177](https://sloan.org/grant-detail/g-2025-79177)].
+      open_access: The Alfred P. Sloan Foundation provided support for open access publication.
+      awards:
+        - id: G-2025-79177
+          name: Sloan Foundation Grant
+          sources:
+            - sloan
+          recipients:
+            - alujan
+  acknowledgments: I am grateful to Christopher D. Carroll for years of mentorship, for detailed feedback on this paper, and for sustained support throughout my career. I also thank Matthew N. White for extensive discussions and collaboration that shaped this work. This work was supported by the Alfred P. Sloan Foundation [[G-2025-79177](https://sloan.org/grant-detail/g-2025-79177)].
+  github: https://github.com/econ-ark/ezegm
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  copyright: (c) 2026 Alan Lujan
+  open_access: true
+  bibliography:
+    - content/references.bib
+  downloads:
+    - id: pdf-paper
+      title: Download Paper
+    - id: pdf-full
+      title: Download Full PDF
+    - id: pdf-appendix
+      title: Download Appendix Only
+  exports:
+    - id: pdf-paper
+      format: pdf+tex
+      template: arxiv_nips
+      output: content/exports/ezegm.pdf
+      title: The Endogenous Grid Method for Epstein-Zin Preferences
+      articles:
+        - content/paper/ezegm.md
+    - id: pdf-appendix
+      format: pdf+tex
+      template: arxiv_nips
+      output: content/exports/ezegm_appendix.pdf
+      title: "Online Appendix: The Endogenous Grid Method for Epstein-Zin Preferences"
+      articles:
+        - content/paper/ezegm_appendix.md
+    - id: pdf-full
+      format: pdf+tex
+      template: arxiv_nips
+      output: content/exports/ezegm_full.pdf
+      title: The Endogenous Grid Method for Epstein-Zin Preferences
+      articles:
+        - content/paper/ezegm_full.md
+    - format: cff
+      output: CITATION.cff
+      articles:
+        - content/paper/ezegm.md
+  toc:
+    - file: content/paper/ezegm.md
+    - file: content/paper/ezegm_appendix.md
+      title: Online Appendix
+    - file: README.md
+
+site:
+  template: article-theme
+  options:
+    logo_text: EZ-EGM

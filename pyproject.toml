@@ -1,0 +1,29 @@
+[project]
+name = "ezegm"
+version = "0.1.0"
+description = "A power transformation extends EGM to recursive preferences"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+keywords = [
+    "endogenous grid method",
+    "epstein-zin preferences",
+    "recursive utility",
+    "dynamic programming",
+    "consumption-savings",
+]
+authors = [
+    { name = "Alan Lujan", email = "alujan@jhu.edu" },
+]
+dependencies = [
+    "jax>=0.6.2",
+    "matplotlib>=3.9.0",
+    "mystmd>=1.7.1",
+    "numba>=0.63.1",
+    "numpy>=2.2.6",
+    "quantecon>=0.8.2",
+    "scipy>=1.15.3",
+]
+
+[project.urls]
+Repository = "https://github.com/econ-ark/ezegm"
