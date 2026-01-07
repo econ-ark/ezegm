@@ -21,6 +21,9 @@ contact:
     country: USA
     orcid: 0000-0002-5289-7054
     email: alujan@jhu.edu
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.18176984
 keywords:
   - Endogenous grid method
   - Epstein-Zin preferences

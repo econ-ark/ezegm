@@ -65,6 +65,7 @@ project:
             - alujan
   acknowledgments: I am grateful to Christopher D. Carroll for years of mentorship, for detailed feedback on this paper, and for sustained support throughout my career. I also thank Matthew N. White for extensive discussions and collaboration that shaped this work. This work was supported by the Alfred P. Sloan Foundation [[G-2025-79177](https://sloan.org/grant-detail/g-2025-79177)].
   github: https://github.com/econ-ark/ezegm
+  doi: 10.5281/zenodo.18176984
   license:
     content: CC-BY-4.0
     code: MIT

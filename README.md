@@ -6,7 +6,7 @@ title: Title Page
 
 *Solving consumption-savings problems with recursive utility*
 
-**Alan Lujan** [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--5289--7054-green)](https://orcid.org/0000-0002-5289-7054)
+**Alan Lujan** [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--5289--7054-green)](https://orcid.org/0000-0002-5289-7054) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18176984.svg)](https://doi.org/10.5281/zenodo.18176984)
 
 Krieger School of Arts and Sciences, Johns Hopkins University, Washington, DC 20036, USA; [Econ-ARK](https://econ-ark.org)
 
@@ -97,6 +97,7 @@ If you use this code, please cite:
   title={The Endogenous Grid Method for Epstein-Zin Preferences},
   author={Lujan, Alan},
   year={2026},
+  doi={10.5281/zenodo.18176984},
   url={https://github.com/econ-ark/ezegm}
 }
 ```
